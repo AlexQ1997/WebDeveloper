@@ -1,0 +1,104 @@
+@font-face {
+    font-family: "NeueMachina";
+    src: url(NeueMachina-Regular.otf);
+}
+@font-face {
+    font-family: "NeueMachina1";
+    src: url(NeueMachina-Light.otf);
+}
+
+@font-face {
+    font-family: "Morganite";
+    src: url(Morganite-Book.ttf);
+}
+@font-face {
+    font-family: "Morganite1";
+    src: url(Morganite-Bold.ttf);
+}
+@font-face {
+    font-family: "Aquire";
+    src: url(Aquire-Light.otf);
+}
+@font-face {
+    font-family: "STREECH";
+    src: url(.otf);
+}
+* {
+    margin: 0;
+    padding: 0;
+}
+
+html,
+body {
+    margin: 0;
+    padding: 0;
+    color: white;
+    
+}
+
+.hide {
+    overflow: hidden;
+}
+
+.loading-screen {
+    position: relative;
+    padding-left: 0;
+    padding-right: 0;
+    padding-top: 0;
+    background-color: #79d70f;
+    width: 0%;
+    height: 100%;
+}
+
+.load-container {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100vh;
+    overflow: hidden;
+    z-index: 10;
+    pointer-events: none;
+}
+
+
+.button:hover a {
+    background: white;
+    color: #161616;
+    transition: 0.3s;
+}
+
+.welcome {
+    margin-left: 5%;
+    position: absolute;
+    color: #ffff;
+    font-family: sans-serif;
+    top: 40%;
+    left: 50%;
+    text-align: center;
+    transform: translate(-50%, -50%);
+    width: 100%;
+}
+
+.welcome h1 {
+    margin-top: 220px;
+    letter-spacing: 5px;
+    font-size: 96px;
+    /* text-transform: uppercase; */
+     font-family: Aquire; 
+     color: #ffff;
+    
+}
+
+.welcome p {
+    font-size: 36px;
+    margin-top: 25px;
+    letter-spacing: 10px;
+    font-family: Morganite;
+}
+#particles-js {
+    background-image: linear-gradient(rgba(0,0,0,0.4), rgba(0,0,0,0.4)), url(image1.jpg);
+    height: 100vh;
+    background-size: cover;
+    background-position: center;
+}

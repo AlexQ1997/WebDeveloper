@@ -1,0 +1,201 @@
+@font-face {
+    font-family: "NeueMachina";
+    src: url(NeueMachina-Regular.otf);
+}
+@font-face {
+    font-family: "NeueMachina1";
+    src: url(NeueMachina-Light.otf);
+}
+@font-face {
+    font-family: "Morganite";
+    src: url(Morganite-Book.ttf);
+}
+* {
+    margin: 0;
+    padding: 0;
+    border: none;
+    outline: none;
+    vertical-align: baseline;
+    font-size: 100%;
+}
+
+html {
+    font-family: Poppins;
+}
+
+body {
+    width: 100%;
+    background-image: linear-gradient(rgba(0,0,0,0.4), rgba(0,0,0,0.4)), url(image2.jpg);
+    height: 100vh;
+    background-size: cover;
+    background-position: center;
+}
+
+
+
+.wrapper {
+    width: 90%;
+    margin: 0 auto;
+}
+
+.navBar::after {
+    content: "";
+    clear: both;
+    display: table;
+}
+
+h1 {
+    color: #fff;
+    font-size: 72px;
+    font-family: Morganite;
+    letter-spacing: 10px;
+    margin-bottom: 20px;
+}
+
+p {
+    color: #fff;
+    font-size: 16px;
+    font-weight: 300;
+}
+
+/* header */
+
+header {
+    margin: 100px 0 100px 120px;
+}
+
+ .button1 {
+    text-decoration: none;
+    color: #000;
+    background-color:  #79d70f ;
+    font-size: 24px;
+    margin-top: 50px;
+    font-family: NeueMachina1;
+    padding:0.35em 1.2em;
+    transition: all 0.2s;
+} 
+.button1:hover{
+    color:  #fff;
+    background-color: #000;
+}
+
+/* .work */
+
+.work {
+    text-align: center;
+    width: 100%;
+}
+
+.work img {
+    margin: 1%;
+    width: 45%;
+    height: 400px;
+    box-shadow: 5px 5px 10px #000;
+    cursor: pointer;
+}
+
+/* header2 */
+
+.header2 {
+    margin: 130px 0 80px 40px;
+}
+
+/* .work2 */
+.work2 {
+    width: 100%;
+    text-align: center;
+}
+
+.work2 img {
+    margin: 1%;
+    width: 94%;
+    box-shadow: 5px 5px 10px #000;
+}
+
+/* footer */
+footer p {
+    text-align: center;
+    color: #fff;
+    margin: 60px auto;
+    font-family: Morganite;
+    font-size: 36px;
+    letter-spacing: 5px;
+}
+
+/* Responsiveness */
+
+@media only screen and (max-width: 991px) {
+    header {
+          text-align: left;
+          margin: 100px 0 100px 30px;
+    }
+
+    header h1 {
+          font-size: 36px;
+    }
+
+    header p {
+          font-size: 12px;
+          width: 90%;
+    }
+
+    .work img {
+          margin: 2%;
+          width: 90%;
+    }
+
+    .header2 {
+          margin: 130px 0 40px 12px;
+    }
+
+    .header2 h1 {
+          font-size: 36px;
+    }
+
+    .header2 p {
+          font-size: 12px;
+          width: 90%;
+    }
+
+    .work2 img {
+          margin: 2%;
+    }
+}
+.container {
+    position: relative;
+    width: 40%;
+  }
+  
+  .image {
+    width: 800px;
+    height: 400px;
+  }
+  
+  .overlay {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: 100%;
+    width: 100%;
+    opacity: 0;
+    transition: .5s ease;
+    background-color: #008CBA;
+  }
+  
+  .container:hover .overlay {
+    opacity: 1;
+  }
+  
+  .text {
+    color: white;
+    font-size: 20px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -webkit-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    text-align: center;
+  }
