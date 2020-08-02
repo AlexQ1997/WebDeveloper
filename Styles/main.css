@@ -1,27 +1,23 @@
 @font-face {
     font-family: "NeueMachina";
-    src: url(NeueMachina-Regular.otf);
+    src: url(/Fonts/NeueMachina-Regular.otf);
 }
 @font-face {
     font-family: "NeueMachina1";
-    src: url(NeueMachina-Light.otf);
+    src: url(/Fonts/NeueMachina-Light.otf);
 }
 
 @font-face {
     font-family: "Morganite";
-    src: url(Morganite-Book.ttf);
+    src: url(/Fonts/Morganite-Book.ttf);
 }
 @font-face {
     font-family: "Morganite1";
-    src: url(Morganite-Bold.ttf);
+    src: url(/Fonts/Morganite-Bold.ttf);
 }
 @font-face {
     font-family: "Aquire";
-    src: url(Aquire-Light.otf);
-}
-@font-face {
-    font-family: "STREECH";
-    src: url(.otf);
+    src: url(/Fonts/Aquire-Light.otf);
 }
 * {
     margin: 0;
@@ -97,7 +93,7 @@ body {
     font-family: Morganite;
 }
 #particles-js {
-    background-image: linear-gradient(rgba(0,0,0,0.4), rgba(0,0,0,0.4)), url(image1.jpg);
+    background-image: linear-gradient(rgba(0,0,0,0.4), rgba(0,0,0,0.4)), url(/Images/image1.jpg);
     height: 100vh;
     background-size: cover;
     background-position: center;
