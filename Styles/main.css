@@ -1,23 +1,23 @@
 @font-face {
     font-family: "NeueMachina";
-    src: url(/Fonts/NeueMachina-Regular.otf);
+    src: url(../Fonts/NeueMachina-Regular.otf);
 }
 @font-face {
     font-family: "NeueMachina1";
-    src: url(/Fonts/NeueMachina-Light.otf);
+    src: url(../Fonts/NeueMachina-Light.otf);
 }
 
 @font-face {
     font-family: "Morganite";
-    src: url(/Fonts/Morganite-Book.ttf);
+    src: url(../Fonts/Morganite-Book.ttf);
 }
 @font-face {
     font-family: "Morganite1";
-    src: url(/Fonts/Morganite-Bold.ttf);
+    src: url(../Fonts/Morganite-Bold.ttf);
 }
 @font-face {
     font-family: "Aquire";
-    src: url(/Fonts/Aquire-Light.otf);
+    src: url(../Fonts/Aquire-Light.otf);
 }
 * {
     margin: 0;
