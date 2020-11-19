@@ -113,13 +113,18 @@ header {
 }
 
 /* footer */
-footer p {
+footer {
+    display: flex;
+    justify-content: center;
+}
+footer a {
     text-align: center;
     color: #fff;
-    margin: 60px auto;
+    margin: 20px auto;
     font-family: Morganite;
     font-size: 36px;
     letter-spacing: 5px;
+    text-decoration: none;
 }
 
 /* Responsiveness */
